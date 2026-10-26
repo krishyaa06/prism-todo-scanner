@@ -1,0 +1,36 @@
+{
+  "name": "prism-todo-scanner",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that finds TODO, FIXME, HACK, BUG and friends across any language, adds git-blame age, exports a Markdown checklist and fails CI on FIXMEs.",
+  "bin": {
+    "todos": "bin/todos.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "todo",
+    "fixme",
+    "code-quality",
+    "technical-debt",
+    "git",
+    "devtools",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-todo-scanner.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-todo-scanner#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
